@@ -1,0 +1,6 @@
+domain: meghdo.cloud
+project_id: meghdo-4567
+storage: 5Gi
+jenkins_user: "admin"
+jenkins_password: "P4ssw0rd"
+account_id: svc_gke

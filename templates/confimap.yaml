@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: scriptapproval
+  namespace: jenkins
+data:
+  scriptApproval.xml: |
+    <scriptApproval plugin="script-security@1362.v67dc1f0e1b_b_3">
+      <approvedScriptHashes>
+        <string>SHA512:49b8bfea2ad867f0c9e07461dbf0787210169d5945ce9a049805c882fa53d121da40ff23a8da1d586d94c892ecdb606d3d90897845575b94c30fe2afcbd16e68</string>
+      </approvedScriptHashes>
+      <approvedSignatures/>
+      <aclApprovedSignatures/>
+      <approvedClasspathEntries/>
+      <pendingScripts/>
+      <pendingSignatures/>
+      <pendingClasspathEntries/>
+    </scriptApproval>
+
