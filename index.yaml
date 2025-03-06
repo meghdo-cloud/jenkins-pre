@@ -3,7 +3,17 @@ entries:
   jenkins-pre:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-01T14:09:45.5340318Z"
+    created: "2025-03-06T19:45:25.2454181Z"
+    description: A Helm chart for Jenkins Pre Kubernetes
+    digest: 5a2662d7e6b4f5bc080b384e927119a38dd0c8d6a9c0b860fff37bf37b593534
+    name: jenkins-pre
+    type: application
+    urls:
+    - https://meghdo-cloud.github.io/jenkins-pre/jenkins-pre-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-03-06T19:45:25.2359089Z"
     description: A Helm chart for Jenkins Pre Kubernetes
     digest: 930514ba590dbf4798d8dba175729af01c336d444c6d623d0ceaa37a76582166
     name: jenkins-pre
@@ -11,14 +21,4 @@ entries:
     urls:
     - https://meghdo-cloud.github.io/jenkins-pre/jenkins-pre-0.2.0.tgz
     version: 0.2.0
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-01-01T14:09:45.5317575Z"
-    description: A Helm chart for Jenkins Pre Kubernetes
-    digest: bba2f30e5f3e99a80ecf0aea97544d79a8bccaf42b8a2bb2769345fcaec8c39a
-    name: jenkins-pre
-    type: application
-    urls:
-    - https://meghdo-cloud.github.io/jenkins-pre/jenkins-pre-0.1.0.tgz
-    version: 0.1.0
-generated: "2025-01-01T14:09:45.5305422Z"
+generated: "2025-03-06T19:45:25.2359089Z"

@@ -5,7 +5,7 @@ metadata:
   namespace: jenkins
 spec:
   gateways:
-    - istio-system/{{ .Values.project_id }}-ingress-gateway
+    - istio-system/{{ .Values.ingress_name }}-ingress-gateway
   hosts:
     - jenkins.{{ .Values.domain }}
   http:
