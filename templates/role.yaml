@@ -31,7 +31,16 @@ rules:
       - statefulsets
       - serviceaccounts
       - deployments
+      - ingress
+      - gateways
       - virtualservices
+      - destinationrules
+      - envoyfilters
+      - certificates
+      - requestauthentications
+      - authorizationpolicies
+      - peerauthentications
+      - sidecars
     verbs:
       - list
       - watch
