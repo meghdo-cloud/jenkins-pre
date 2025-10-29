@@ -1,5 +1,6 @@
 domain: meghdo.cloud
 storage: 5Gi
+storageClass: premium-rwo
 jenkins_user: "admin"
 jenkins_password: "P4ssw0rd"
 ingress_name: meghdo-4567
